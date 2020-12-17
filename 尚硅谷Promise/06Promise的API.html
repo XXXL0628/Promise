@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        语法糖：就是简写方式，写起来很甜
+        */
+       const p1 = new Promise((resolve,reject)=>{
+           resolve(2);
+       });
+       //等价于
+       const p2 = Promise.resolve(2);
+    </script>
+    
+</body>
+</html>
